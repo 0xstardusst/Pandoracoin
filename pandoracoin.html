@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandoracoin - The Future of Alien Crypto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, #001a33, #000000);
+            color: #d9e6f2;
+            overflow: hidden;
+        }
+        header {
+            background: rgba(0, 51, 102, 0.8);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #00ccff;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #99d6ff;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            position: relative;
+        }
+        .hero img {
+            max-width: 250px;
+            border-radius: 50%;
+            box-shadow: 0 0 20px #00ccff;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            margin: 20px 0;
+            color: #33ccff;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 1rem;
+            color: white;
+            background: #0066cc;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 0 15px #0066cc;
+        }
+        .cta-button:hover {
+            background: #0055aa;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            background: rgba(0, 26, 51, 0.9);
+        }
+        .feature {
+            flex: 1 1 300px;
+            margin: 20px;
+            padding: 20px;
+            background: rgba(0, 51, 102, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        .feature h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #66d9ff;
+        }
+        .feature p {
+            font-size: 1rem;
+            color: #99d6ff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 51, 102, 0.8);
+            color: #d9e6f2;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Firefly Animation */
+        .firefly {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #ffcc00;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #ffcc00;
+            animation: move 5s linear infinite;
+        }
+        @keyframes move {
+            0% { transform: translate(0, 0); }
+            25% { transform: translate(50px, -50px); }
+            50% { transform: translate(-50px, 50px); }
+            75% { transform: translate(50px, 50px); }
+            100% { transform: translate(0, 0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pandoracoin</h1>
+        <p>The cryptocurrency inspired by an alien paradise!</p>
+    </header>
+    <div class="hero">
+        <img src="pandoracoin-logo.png" alt="Pandoracoin Logo">
+        <h2>Embrace the Future</h2>
+        <p>Explore the endless possibilities of a blockchain-powered world.</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <h3>Eco-Friendly</h3>
+            <p>Low-impact transactions with a focus on sustainability.</p>
+        </div>
+        <div class="feature">
+            <h3>Alien Technology</h3>
+            <p>Powered by cutting-edge advancements in blockchain tech.</p>
+        </div>
+        <div class="feature">
+            <h3>Community First</h3>
+            <p>Join a thriving community of like-minded explorers.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pandoracoin. All rights reserved.</p>
+    </footer>
+
+    <!-- Firefly Effect -->
+    <script>
+        const fireflyCount = 20;
+        for (let i = 0; i < fireflyCount; i++) {
+            const firefly = document.createElement('div');
+            firefly.classList.add('firefly');
+            firefly.style.top = `${Math.random() * window.innerHeight}px`;
+            firefly.style.left = `${Math.random() * window.innerWidth}px`;
+            firefly.style.animationDuration = `${3 + Math.random() * 2}s`;
+            document.body.appendChild(firefly);
+        }
+    </script>
+</body>
+</html>
